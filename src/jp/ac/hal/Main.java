@@ -1,5 +1,12 @@
 package jp.ac.hal;
 
-public class Main {
+class Book {
+	String title;
+	String writer;
+
+	Book(String t, String w){
+		title = t;
+		writer = w;
+	}
 
 }

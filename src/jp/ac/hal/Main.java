@@ -8,7 +8,7 @@ class Book {
 		title = t;
 		writer = w;
 	}
-
+	//コピー
 	Book(Book copy){
 		title = copy.title;
 		writer = copy.writer;

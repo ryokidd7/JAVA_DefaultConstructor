@@ -9,4 +9,9 @@ class Book {
 		writer = w;
 	}
 
+	Book(Book copy){
+		title = copy.title;
+		writer = copy.writer;
+	}
+
 }
